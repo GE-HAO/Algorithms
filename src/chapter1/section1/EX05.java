@@ -1,6 +1,6 @@
-package chapter1.chapter1_1;
+package chapter1.section1;
 
-public class EX1_1_5 {
+public class EX05 {
 	public static void main(String[] args) {
 		double x = 0.1;
 		double y = 0.2;

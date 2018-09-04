@@ -1,16 +1,15 @@
 
 public class Temp {
-	public static void printTransposedMatrix(int[][] matrix) {
-		for (int i = 0; i < matrix[0].length; i++) {
-			for (int j = 0; j < matrix.length; j++) {
-				System.out.printf("%4d", matrix[j][i]);
-			}
-			System.out.println();
-		}
+	public static long F(int N) {
+		if (N == 0)
+			return 0;
+		if (N == 1)
+			return 1;
+		return F(N - 1) + F(N - 2);
 	}
 
 	public static void main(String[] args) {
-		int[][] a = { { 100, 200}, { 300, 400} ,{500,600}};
-		printTransposedMatrix(a);
+		for (int N = 0; N < 45; N++)
+			System.out.println(N + " " + F(N));
 	}
 }

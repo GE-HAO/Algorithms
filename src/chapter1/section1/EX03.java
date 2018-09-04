@@ -1,8 +1,8 @@
-package chapter1.chapter1_1;
+package chapter1.section1;
 
 import java.util.Scanner;
 
-public class EX1_1_3 {
+public class EX03 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();

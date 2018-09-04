@@ -1,6 +1,6 @@
-package chapter1.chapter1_1;
+package chapter1.section1;
 
-public class EX1_1_11 {
+public class EX11 {
 	public static void main(String[] args) {
 		boolean[][] arr = { { true, false, true }, { false, true, false }, { true, false, true } };
 		System.out.println(" 123");
